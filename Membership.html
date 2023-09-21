@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Membership </title>
+    <style>
+        body {
+            background-image:url("Membi.jpg");
+            background-size: 100%;
+        }
+
+        .F {
+            text-align: right;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
+        }
+
+        .Q {
+            color: rgb(194, 21, 21);
+            text-align: center;
+        }
+
+        .Namecolor label {
+            color: rgb(255, 255, 255);
+
+        }
+
+        .Namecolor input {
+            border: 2px solid rgba(85, 56, 189, 0.685);
+        }
+        .price{
+            color: white;
+        }
+        .personal{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="F"><i> <b>Fitness clube</b></i></p>
+    <h1 class="Q"> membership form </h1>
+
+    <form>
+        <div class="Namecolor">
+            <label for="name">name:</label>
+            <input type="text" name="Fname">
+            <input type="text" name="Sname">
+            <input type="text" name="Tname">
+        </div> <br>
+        <div class="Namecolor">
+            <label for="email">Email:</label>
+            <input type="text" name="Email">
+        </div><br>
+        <div class="Namecolor">
+            <label for="number">Number:</label>
+            <input type="tel" name="Number" id="">
+        </div><br>
+        <div class="Namecolor">
+            <label for="Address">Address:</label>
+            <input type="text" name="Address" value="street Address">
+            <input type="text" name="City" value="City">
+            <input type="text" name="State" value="State">
+        </div> <br>
+        <div class="price">
+            Membership plan:------------ <br><br>
+          Standard:($25/per month)  <input type="radio" name="Membership plan">
+          Silver($20/per month) <input type="radio" name="Membership plan">
+          Gold($15/per month) <input type="radio" name="Membership plan">
+         </div><br>
+        <div class="personal">
+            personal terrainer($5/per month) <input type="radio" name="membership plan">
+        </div>
+        <div class="Namecolor">
+            <label for="Comment">Comment</label>
+            <textarea name="Comments" id="" cols="30" rows="10"></textarea>
+        </div><br>
+
+        <div class="Namecolor">
+            <input type="reset" name="Reset" id="">
+        </div><br>
+        <div class="Namecolor">
+            <input type="Submit" name="Submit">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>
